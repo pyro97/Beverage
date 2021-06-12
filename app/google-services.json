@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "370555326871",
+    "firebase_url": "https://beverage-dcee3.firebaseio.com",
+    "project_id": "beverage-dcee3",
+    "storage_bucket": "beverage-dcee3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370555326871:android:c4ef5427ff0d980f7b34d2",
+        "android_client_info": {
+          "package_name": "com.simonepirozzi.beverage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370555326871-15rrsbscdknhssaqj7pqpd1jkji3mqjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simonepirozzi.beverage",
+            "certificate_hash": "9af0fea83ee0aa847eb5f19afd09b0e50586435c"
+          }
+        },
+        {
+          "client_id": "370555326871-cd507i6diucnn6656dq2fphld6avnpik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRDIGYjaXjGel3y8nycnlWkjkf2wUSaBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370555326871-cd507i6diucnn6656dq2fphld6avnpik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Beverage</string>
+    <string name="my_own_title">Ti piace "Beverage"?</string>
+
+    <string name="my_own_message">Valuta l\'app su Google Play. Grazie per il tuo supporto!</string>
+
+    <string name="my_own_rate">Vota ora</string>
+
+    <string name="my_own_thanks">No grazie</string>
+    <string name="my_own_cancel">Ricordamelo</string>
+
+
+</resources>
