@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         tools:replace="android:icon"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Splash">
+        <activity android:name=".ui.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,13 +23,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SelezionaCategorieActivity"/>
-        <activity android:name=".GiocoActivity"/>
-        <activity android:name=".Risultato"/>
-        <activity android:name=".FineGiocoActivity"/>
-        <activity android:name=".InfoActivity"/>
-        <activity android:name=".IstruzioniActivity"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".ui.game.category.CategoryActivity"/>
+        <activity android:name=".ui.game.GameActivity"/>
+        <activity android:name=".ui.game.resultGame.ResultGameActivity"/>
+        <activity android:name=".ui.game.endGame.EndGameActivity"/>
+        <activity android:name=".ui.info.InfoActivity"/>
+        <activity android:name=".ui.rules.RulesActivity"/>
+        <activity android:name=".ui.main.MainActivity"/>
 
 
 

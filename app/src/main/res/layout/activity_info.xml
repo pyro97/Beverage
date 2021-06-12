@@ -8,11 +8,11 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -22,71 +22,71 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:text="@string/placeholder_app_name"
             android:textColor="@color/fui_bgGitHub"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Nome App"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textSize="18sp"
-            android:text="Beverage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginBottom="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/fui_bgGitHub"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Versione"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textSize="18sp"
-            android:text="1.0.0"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_marginBottom="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_marginLeft="20dp"
-            android:textColor="@color/fui_bgGitHub"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Sviluppatori"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content" />
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simone Pirozzi, Giovanni Pepe"
+            android:text="@string/beverage_title"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/placeholder_version"
+            android:textColor="@color/fui_bgGitHub"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/placeholder_developer"
+            android:textColor="@color/fui_bgGitHub"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developers_name"
             android:textColorLink="#8B0000"
             android:textSize="18sp" />
 
@@ -94,45 +94,45 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:text="@string/palceholder_contacts"
             android:textColor="@color/fui_bgGitHub"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Contatti"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content" />
+            android:textStyle="bold" />
 
         <TextView
-            android:textColorLink="#e6bc53"
-            android:autoLink="email"
-            android:textSize="18sp"
-            android:text="pyroapps97@gmail.com"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:text="@string/email"
+            android:textColorLink="#e6bc53"
+            android:textSize="18sp" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal">
 
         <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:text="@string/placeholder_other"
             android:textColor="@color/fui_bgGitHub"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:text="Altre App"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/otherApps"
@@ -143,8 +143,6 @@
 
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>

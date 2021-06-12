@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/button_text_color"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:orientation="vertical"/>
+        android:orientation="vertical" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,14 +35,14 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:layout_marginBottom="20dp"
-                android:orientation="vertical"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
 
 
                 <Button
-                    android:id="@+id/gioca"
+                    android:id="@+id/play"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
@@ -51,12 +51,12 @@
                     android:layout_marginBottom="30dp"
                     android:background="@drawable/rounded5"
                     android:fontFamily="@font/font1"
-                    android:text="Gioca"
+                    android:text="@string/play_main"
                     android:textColor="@color/button_text_color"
                     android:textSize="18sp" />
 
                 <Button
-                    android:id="@+id/paginaIstruzioni"
+                    android:id="@+id/rulesPage"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
@@ -64,12 +64,12 @@
                     android:layout_marginBottom="30dp"
                     android:background="@drawable/rounded5"
                     android:fontFamily="@font/font1"
-                    android:text="ISTRUZIONI"
+                    android:text="@string/rules_main"
                     android:textColor="@color/button_text_color"
                     android:textSize="18sp" />
 
                 <Button
-                    android:id="@+id/paginaInfo"
+                    android:id="@+id/infoPage"
                     android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
@@ -77,7 +77,7 @@
                     android:layout_marginBottom="30dp"
                     android:background="@drawable/rounded5"
                     android:fontFamily="@font/font1"
-                    android:text="INFORMAZIONI"
+                    android:text="@string/info_main"
                     android:textColor="@color/button_text_color"
                     android:textSize="18sp" />
 
@@ -90,19 +90,14 @@
                     android:layout_marginBottom="30dp"
                     android:background="@drawable/rounded5"
                     android:fontFamily="@font/font1"
-                    android:text="Rimuovi Pubblicità"
+                    android:text="@string/remove_ads_main"
                     android:textColor="@color/button_text_color"
                     android:textSize="18sp" />
 
             </LinearLayout>
 
 
-
-
-
         </ScrollView>
-
-
 
 
     </LinearLayout>

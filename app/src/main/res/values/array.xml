@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rules_list">
+        <item>@string/rule1_desc</item>
+        <item>@string/rule2_desc</item>
+        <item>@string/rule3_desc</item>
+        <item>@string/rule4_desc</item>
+        <item>@string/rule5_desc</item>
+        <item>@string/rule6_desc</item>
+        <item>@string/rule7_desc</item>
+        <item>@string/rule8_desc</item>
+        <item>@string/rule9_desc</item>
+        <item>@string/rule10_desc</item>
+    </string-array>
+
+    <string-array name="rules_list_game">
+        <item>@string/rule1_game</item>
+        <item>@string/rules2_game</item>
+        <item>@string/rules3_game</item>
+        <item>@string/rules4_game</item>
+        <item>@string/rules5_game</item>
+        <item>@string/rules6_game</item>
+    </string-array>
+</resources>

@@ -8,6 +8,57 @@
 
     <string name="my_own_thanks">No grazie</string>
     <string name="my_own_cancel">Ricordamelo</string>
-
-
+    <string name="beverage_title">Beverage</string>
+    <string name="play_main">Gioca</string>
+    <string name="rules_main">ISTRUZIONI</string>
+    <string name="info_main">INFORMAZIONI</string>
+    <string name="remove_ads_main">Rimuovi Pubblicità</string>
+    <string name="ok_dialog">Ok</string>
+    <string name="product_buy_title">Prodotto Acquistato</string>
+    <string name="ok_billing_dialog">Premi Ok per aggiornare</string>
+    <string name="error_buy_title">Operazione fallita</string>
+    <string name="error_billing_dialog">Chiudi l\'app e riprova</string>
+    <string name="loading_message_dialog">caricamento</string>
+    <string name="placeholder_app_name">Nome App</string>
+    <string name="placeholder_version">Versione</string>
+    <string name="version">1.0.0</string>
+    <string name="placeholder_developer">Sviluppatori</string>
+    <string name="developers_name">Simone Pirozzi, Giovanni Pepe</string>
+    <string name="palceholder_contacts">Contatti</string>
+    <string name="email">pyroapps97@gmail.com</string>
+    <string name="placeholder_other">Altre App</string>
+    <string name="google_link"><![CDATA[<a href="https://play.google.com/store/apps/developer?id=Pyro+Apps&hl=it">Google Play link</a>]]></string>
+    <string name="rule1_desc">L\'obiettivo del gioco consiste nell\'indovinare l\'età dei personaggi visualizzati.\n\n</string>
+    <string name="rule2_desc">Chi indovina l\'età esatta vince il turno corrente e non deve bere a differenza di tutti gli altri.\n\n</string>
+    <string name="rule3_desc">Se nessuno indovina l\'età, il turno viene vinto da chi si è avvicinato di più a quella reale, </string>
+    <string name="rule4_desc">ricordando che non c\'è differenza tra età maggiore o minore di quella reale, se hanno lo stesso scarto. \n(Es: se l\'età esatta è 30, </string>
+    <string name="rule5_desc">sia 20 e sia 40 hanno lo stesso valore nell\'individuazione dei vincitori).\n\n\</string>
+    <string name="rule6_desc">Ogni turno può essere vinto anche da più persone, se una certà età nominata da più partecipanti, </string>
+    <string name="rule7_desc">successivamente risulta esatta oppure la più vicina a quella reale (ricordando sempre l\'esempio precedente)\n\n</string>
+    <string name="rule8_desc">I moltiplicatori dei Bonus e dei Malus (Es: x1, x2, x3, ..) includono già ciò che dovrebbe bere chi alla fine </string>
+    <string name="rule9_desc">del turno risulta perdente.\n\n</string>
+    <string name="rule10_desc">Buon divertimento e bevi responsabilmente!</string>
+    <string name="rule_title">Regolamento</string>
+    <string name="start_match_dialog_title">Inizio partita in corso</string>
+    <string name="start_match_dialog_desc">A volte il caricamento potrebbe impiegare fino ad un minuto.</string>
+    <string name="category_select_title">Seleziona Categoria</string>
+    <string name="cancel_dialog">Annulla</string>
+    <string name="title_rules_game">Regole</string>
+    <string name="rule1_game">Chi indovina l\'età esatta vince il turno e non deve bere a differenza degli altri\n\n</string>
+    <string name="rules2_game">Se nessuno indovina, il turno viene vinto da chi si è avvicinato di più all\'età reale\n\n</string>
+    <string name="rules3_game">I bonus e i malus includono già ciò che dovrebbe bere a prescindere chi perde il turno\n\n</string>
+    <string name="rules4_game">Le età vincenti sono quelle esatte o più vicine con lo stesso scarto ( 20 e 40 sono entrambe vincenti</string>
+    <string name="rules5_game"> se 30 è l\'età esatta)\n\n</string>
+    <string name="rules6_game">Buon divertimento e gioca responsabilmente!\n\n</string>
+    <string name="warning_title">Attenzione</string>
+    <string name="warning_desc">Stai per uscire dal gioco</string>
+    <string name="button_age">ETA\'</string>
+    <string name="bonus_result">BONUS</string>
+    <string name="malus_result">MALUS</string>
+    <string name="add_age_text"> anni</string>
+    <string name="add_text_result_name"> ha </string>
+    <string name="next_question_button">Avanti</string>
+    <string name="total_questions">\" domande effettuate\"</string>
+    <string name="end_game">Partita conclusa</string>
+    <string name="end_game_button">Fine</string>
 </resources>
