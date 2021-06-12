@@ -5,7 +5,10 @@ Google Play: https://cutt.ly/unSTlWE
 
 <br>
 <p align="center">
-  <img src="readme/audio-to-text.gif" width="300">
+  <img src="readme/b1.png" width="300">
+  <img src="readme/b2.png" width="300">
+  <img src="readme/b3.png" width="300">
+  <img src="readme/b4.png" width="300">
 </p>
 
 #### This app has following packages:
